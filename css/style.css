@@ -1,0 +1,154 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.header__contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: var(--gray, #969696);
+    font-size: 12px;
+    font-family: PT Sans;
+    font-weight: 400;
+    height: 44px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0F0F0F;
+    height: 80px;
+}
+
+.header__menu-name {
+    color: #FFF;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: Post No Bills Jaffna;
+    font-weight: 700;
+}
+
+.header__menu-item {
+    color: #FFF;
+    font-size: 14px;
+    font-family: PT Sans;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.slider__container {
+    height: 810px;
+    background-image: url(../images/Rectangle\ 3.png);
+    display: flex;
+    align-items: center;
+    font-family: PT Sans;
+}
+
+.slider__item-title {
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 64px;
+    font-family: Post No Bills Jaffna;
+    font-weight: 700;
+    border: 4px solid #FFF;
+    margin: 0 auto;
+    padding: 10px;
+    width: 120px;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider__item-subtitle {
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: PT Sans;
+    font-weight: 400;
+}
+
+.slider__item-text {
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: PT Sans;
+    font-weight: 400;
+}
+
+.content__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.content__season {
+    background-color: #000;
+    width: 1040px;
+    height: 730px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.content__season-item1 {
+    background-color: #191B1C;
+    padding: 260px, 325px;
+}
+
+.content__season-item2 {
+    background-color: #191B1C;
+    margin: 260px, 325px;
+}
+
+.content__season-item3 {
+    background-color: #191B1C;
+    margin: 260px, 325px;
+}
+
+.slider__newcollection {
+    background-image: url(../images/Rectangle\ 8.png);
+    width: 880px;
+    height: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__newcollection-item1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFF;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.slider__newcollection-item2 {
+    display: flex;
+    justify-content: center;
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    border: 1px solid var(--white, #FFF);
+    padding: 12px 28px;
+}
